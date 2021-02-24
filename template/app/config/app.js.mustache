@@ -1,0 +1,18 @@
+App: #应用信息
+  Name: {{Name}}
+  Author:
+  Description: {{Description}}
+  Addons:
+    {{#Addons}}
+    - Name: {{{value}}}
+      Ref: {{{Ref}}}
+      Group: {{{Group}}}
+      SourceType: {{SourceType}}
+      Source: {{Source}}
+      Description: {{Description}}
+      Type: {{Type}}
+      DependOns: {{{DependOns}}}
+      Conflicts: {{{Conflicts}}}
+      Migrations: {{Migrations}}
+      Docs: {{Docs}}
+    {{/Addons}}
