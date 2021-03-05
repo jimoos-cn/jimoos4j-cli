@@ -36,7 +36,6 @@ program
     .option('-o, --object <object>', "Update Destination Object")
     .description('update addons')
     .action(function (options) {
-        console.log("object:" + options.object)
         update(options)
     })
 program.parse(process.argv);
