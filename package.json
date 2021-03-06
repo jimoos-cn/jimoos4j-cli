@@ -1,6 +1,6 @@
 {
   "name": "jimoos4j",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "main": "bin/index.js",
   "bin": {
     "jimoos4j": "./bin/index.js"
