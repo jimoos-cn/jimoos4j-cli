@@ -39,12 +39,12 @@ Commands:
 ```
 
 ```
-jimo4j init // 初始化项目 {{demo}}
+jimoos4j init // 初始化项目 {{demo}}
 cd {{demo}}
 mvn clean install -Dmaven.test.skip=true
 cd starter/api-starter 
 mvn spring-boot:run //启动 spring-boot 项目
-jimo4j add-addon // 添加项目 {{addonDemo}}
+jimoos4j add-addon // 添加项目 {{addonDemo}}
 mvn clean install -Dmaven.test.skip=true
 //添加 addonDemo 到 starter pom.xml 下
 cd starter/api-starter 
